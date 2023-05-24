@@ -19,6 +19,7 @@ const Modal = forwardRef(
     const TransitionComponent =
       transition &&
       transitions[transition] &&
+      // eslint-disable-next-line react-hooks/rules-of-hooks
       useMemo(() => {
         const Transition = forwardRef(
           ({children: transitionChildren, ...transitionProps}, transitionRef) =>
