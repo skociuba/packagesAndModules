@@ -4,7 +4,7 @@
   "author": "Kociuba Sebastian",
   "repository": {
     "type": "git",
-    "url": "https://github.com/skociuba/Template2023"
+    "url": "https://github.com/skociuba/packagesAndModules"
   },
   "main": "src/idex.js",
   "private": true,
