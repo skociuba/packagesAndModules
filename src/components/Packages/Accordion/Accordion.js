@@ -31,6 +31,7 @@ const Accordion = forwardRef(({children, theme, initData, multipleExpand, ...pro
   const accordionElement = initData.map((childData, index) => {
     const innerContent = childData.content;
     const header = childData.title;
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const buttonRef = useRef();
     accordionRefs.push(buttonRef);
 
