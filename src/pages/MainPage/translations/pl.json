@@ -1,0 +1,5 @@
+{
+  "helloGuest": "witam gościu nr:{{number}}",
+  "todayIs": "Dziś jest: ",
+  "newYear": " co oznacza, że mamy Nowy Rok."
+}
